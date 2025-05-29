@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Blog | CodeBoost</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-image: url('https://images.unsplash.com/photo-1518770660439-4636190af475');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      min-height: 100vh;
+    }
+
+    header nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: rgba(0, 0, 0, 0.7);
+      padding: 10px 30px;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 18px;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #00bcd4;
+    }
+
+    main {
+      margin-top: 80px;
+      max-width: 900px;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 20px;
+      font-family: Arial, sans-serif;
+    }
+
+    h2 {
+      margin-bottom: 20px;
+    }
+
+    .round {
+      float: left;
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      margin-right: 20px;
+      object-fit: cover;
+      border: 3px solid #00bcd4;
+    }
+
+    p {
+      text-align: justify;
+      line-height: 1.5;
+      color: white;
+    }
+
+    .social-icons {
+      margin-top: 30px;
+    }
+
+    .social-icons a {
+      text-decoration: none;
+      color: white;
+      font-size: 28px;
+      margin-right: 20px;
+      transition: color 0.3s;
+    }
+
+    .social-icons a:hover {
+      color: #00bcd4;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <div><strong>CodeBoost</strong></div>
+      <div>
+        <a href="index.html">Inicio</a>
+        <a href="blog.html">Blog</a>
+        <a href="galeria.html">Galería</a>
+        <a href="videos.html">Videos</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Mi experiencia aprendiendo HTML</h2>
+    <img src="https://cdn-icons-png.flaticon.com/512/919/919827.png" class="round" alt="HTML5 logo" />
+    <p>
+      Aprender HTML fue el primer paso en mi viaje como desarrollador web. Al principio, me parecía un mundo complicado y abrumador, con tantas etiquetas y atributos que parecía imposible dominarlos todos. Pero, con práctica constante y un poco de paciencia, empecé a entender la estructura básica de una página, cómo organizar el contenido y darle estilo con CSS.
+      Poco a poco, fui combinando HTML con otras tecnologías como JavaScript para hacer mis páginas más interactivas y dinámicas.
+      Hoy, después de meses de estudio, me siento mucho más seguro y listo para crear proyectos reales.
+      En este blog, quiero compartir no solo mis experiencias personales, sino también consejos prácticos, recursos útiles y trucos que me ayudaron a avanzar rápidamente.
+      Si estás comenzando en la programación web, te animo a no rendirte y a practicar todos los días, porque la perseverancia es la clave del éxito.
+    </p>
+
+    <div class="social-icons">
+      <a href="https://github.com/" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+      <a href="https://twitter.com/" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+    </div>
+  </main>
+</body>
+</html>

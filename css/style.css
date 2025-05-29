@@ -1,0 +1,101 @@
+/* style.css */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  color: #fff;
+}
+
+header {
+  background-color: #222;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 10;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #00c3ff;
+}
+
+main {
+  margin-top: 70px;
+  padding: 20px;
+}
+
+.hero {
+  background-image: url('../img/fondo.jpg');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 150px 20px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  color: #fff;
+}
+
+.hero p {
+  font-size: 20px;
+  color: #ccc;
+}
+
+.social-icons {
+  margin-top: 20px;
+}
+
+.social-icons a {
+  color: white;
+  margin: 0 10px;
+  font-size: 24px;
+}
+
+img.round {
+  border-radius: 50%;
+  width: 150px;
+  float: right;
+  margin-left: 20px;
+}
+
+.flex-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.flex-gallery img {
+  width: 100%;
+  max-width: 300px;
+  transition: filter 0.3s ease;
+}
+
+.flex-gallery img:hover {
+  filter: brightness(70%);
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  margin-bottom: 20px;
+}
+
+.video-container iframe,
+.video-container video {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
